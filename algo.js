@@ -19,6 +19,7 @@ function toCamelCase(str){
 }
 
 console.log("To Camel Case: This_is_a_string |", toCamelCase("This_is_a_string"));
+console.log("To Camel Case ||  :", toCamelCase(""));
 console.log("To Camel Case || the_stealth_warrior :", toCamelCase("the_stealth_warrior"));
 console.log("To Camel Case ||  :", toCamelCase(""));
 console.log("To Camel Case ||  :", toCamelCase(""));
