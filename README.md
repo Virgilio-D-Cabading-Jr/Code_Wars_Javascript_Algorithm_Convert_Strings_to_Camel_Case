@@ -15,3 +15,7 @@ Platform: Visual Studio Code
 
 --------------------------
 
+## Sample Output:
+
+1. "the-stealth-warrior" gets converted to "theStealthWarrior"
+2. "The_Stealth_Warrior" gets converted to "TheStealthWarrior"
