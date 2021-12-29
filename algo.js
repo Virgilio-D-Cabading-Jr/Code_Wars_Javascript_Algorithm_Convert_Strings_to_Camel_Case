@@ -2,3 +2,6 @@
 //  Code Wars: CONVERT STRING TO CAMEL CASE
 ////////////////////////////////////////////////////
 
+function toCamelCase(str){
+
+}
