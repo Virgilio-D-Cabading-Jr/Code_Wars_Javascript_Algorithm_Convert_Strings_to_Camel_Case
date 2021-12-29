@@ -4,17 +4,13 @@
 
 function toCamelCase(str){
     let output = "";
-
-    // Loop through each character of string str
     for (let idx=0; idx < str.length; idx++) {
         if (str[idx-1] == '-' || str[idx-1] == '_') {
             output += str[idx].toUpperCase();
-        } else if (str[idx] == '-' || str[idx] == '_') {
-        } else {
+        } else if (str[idx] != '-' && str[idx] != '_') {
             output += str[idx];
         }
     }
-
     return output;
 }
 
