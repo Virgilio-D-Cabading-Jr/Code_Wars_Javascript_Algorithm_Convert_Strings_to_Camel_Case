@@ -5,6 +5,11 @@
 function toCamelCase(str){
     let output = "";
 
+    // Loop through each character of string str
+    for (let idx=0; idx < str.length; idx++) {
+        console.log(str[idx]);
+    }
+
     return output;
 }
 
